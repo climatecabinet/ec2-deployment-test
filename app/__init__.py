@@ -10,7 +10,6 @@ from utils import print_cr
 from app.config import (
     ATLAS_URI,
     SKIP_STATES,
-    TARGET_STATES,
     GEN_WELCOME,
     BUILD_USER,
     GEN_USER,

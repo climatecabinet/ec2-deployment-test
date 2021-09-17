@@ -4,9 +4,20 @@
 from datetime import datetime
 from enum import Enum
 from mongoengine import (
-    Document, StringField, IntField, EmbeddedDocument, EmbeddedDocumentField,
-    EmbeddedDocumentListField, SortedListField, BooleanField, LazyReferenceField, ListField,
-    ReferenceField, FloatField, DateTimeField, URLField
+    Document,
+    StringField,
+    IntField,
+    EmbeddedDocument,
+    EmbeddedDocumentField,
+    EmbeddedDocumentListField,
+    SortedListField,
+    BooleanField,
+    LazyReferenceField,
+    ListField,
+    ReferenceField,
+    FloatField,
+    DateTimeField,
+    URLField,
 )
 from mongoengine.base import GeoJsonBaseField
 
@@ -26,8 +37,8 @@ class RegionShapeField(GeoJsonBaseField):
                 return self.validate(value["coordinates"], r_type=value["type"])
             else:
                 self.error(
-                    "%s can only accept a valid GeoJson dictionary"
-                    " or lists of (x, y)" % self._name
+                    "%s can only accept a valid GeoJson dictionary or lists of (x, y)"
+                    % self._name
                 )
                 return
         elif not isinstance(value, (list, tuple)):
@@ -54,12 +65,9 @@ class Shape(Document):
 
     meta = {
         'indexes': [
-            {
-                'fields': ['ccid', 'year'],
-                'unique': True
-            },
+            {'fields': ['ccid', 'year'], 'unique': True},
             'state_abbr',
-            '(shape'
+            '(shape',
         ]
     }
 
@@ -69,6 +77,7 @@ class Shape(Document):
 
 class RegionShape(EmbeddedDocument):
     """Stores the geojson shape for a region"""
+
     year = IntField(required=True)
     shape = ReferenceField(Shape, required=True)
 
@@ -78,29 +87,32 @@ class RegionShape(EmbeddedDocument):
 
 class RegionFragment(EmbeddedDocument):
     """Stores a fragment of a region"""
+
     region = LazyReferenceField('Region', required=True)
     population = IntField(required=True)
     perc_of_whole = FloatField(required=True)
 
     def __repr__(self):
-        return f"<RegionFragment(ccid='{self.region.fetch().ccid}'," \
-               f" perc='{self.perc_of_whole}')>"
+        return (
+            f"<RegionFragment(ccid='{self.region.fetch().ccid}',"
+            f" perc='{self.perc_of_whole}')>"
+        )
 
 
 class Incumbent(EmbeddedDocument):
     name = StringField(required=True)
-    rep = ReferenceField('Representative', required=True)
 
 
 class EnvironmentalOrg(EmbeddedDocument):
-    """ The name and website of an environmental org. whose scorecards we use.
-    """
+    """The name and website of an environmental org. whose scorecards we use."""
+
     name = StringField(required=True)
     website = URLField(required=True)
 
 
 class Region(Document):
     """Base class for all region-style documents"""
+
     state_fips = StringField(required=True)
     state_abbr = StringField(required=True, max_length=2, min_length=2)
     geoid = StringField(required=True)
@@ -111,20 +123,12 @@ class Region(Document):
     )
     fragments = ListField(EmbeddedDocumentField(RegionFragment))
     asthma = EmbeddedDocumentField('AsthmaData')
-    polling = EmbeddedDocumentField('PollingData')
     jobs = EmbeddedDocumentField('JobsData')
 
     date_modified = DateTimeField(default=datetime.utcnow)
 
     meta = {
-        'indexes': [
-            {
-                'fields': ['geoid'],
-                'unique': True
-            },
-            '_cls',
-            'state_abbr',
-        ],
+        'indexes': [{'fields': ['geoid'], 'unique': True}, '_cls', 'state_abbr'],
         'allow_inheritance': True,
     }
 
@@ -167,29 +171,36 @@ class Region(Document):
         for f in self.fragments:
             # if the type of region creating this fragment with self's region
             # isn't the region type specified by frag_type, skip it
-            if Region.objects.only('_cls').get(id=f.region.id)._cls != frag_type.cls_name:
+            if (
+                Region.objects.only('_cls').get(id=f.region.id)._cls
+                != frag_type.cls_name
+            ):
                 continue
 
-            f_reg = Region.objects.only('fragments', 'ccid', doc_attr).get(id=f.region.id)
+            f_reg = Region.objects.only('fragments', 'ccid', doc_attr).get(
+                id=f.region.id
+            )
 
             if (source_emb_doc := getattr(f_reg, doc_attr)).extrapolated:
                 raise Exception(
-                    f"Extrapolation error - could not extrapolate {target_cls} data for "
-                    f"{self} using intersecting {frag_type.name} regions, since those "
-                    f"intersecting regions have extrapolated data themselves. Make sure "
-                    f"extrapolated data is sourced from non-extrapolated regions."
+                    f"Extrapolation error - could not extrapolate {target_cls} data for"
+                    f" {self} using intersecting {frag_type.name} regions, since those"
+                    " intersecting regions have extrapolated data themselves. Make"
+                    " sure extrapolated data is sourced from non-extrapolated regions."
                 )
 
-            frag_of_self_from_source = list(filter(
-                lambda f: f.region.id == self.id, f_reg.fragments
-            ))[0]
+            frag_of_self_from_source = list(
+                filter(lambda f: f.region.id == self.id, f_reg.fragments)
+            )[0]
 
             source_perc_of_whole = frag_of_self_from_source.perc_of_whole
 
             for field in target._data.keys():
                 if field not in omit:
                     curr = getattr(target, field) if getattr(target, field) else 0
-                    new_val = curr + getattr(source_emb_doc, field)*source_perc_of_whole
+                    new_val = (
+                        curr + getattr(source_emb_doc, field) * source_perc_of_whole
+                    )
                     setattr(target, field, new_val)
 
         target.extrapolated = True
@@ -201,23 +212,28 @@ class Region(Document):
         for f in self.fragments:
             # if the type of region creating this fragment with self's region
             # isn't the region type specified by frag_type, skip it
-            if Region.objects.only('_cls').get(id=f.region.id)._cls != frag_type.cls_name:
+            if (
+                Region.objects.only('_cls').get(id=f.region.id)._cls
+                != frag_type.cls_name
+            ):
                 continue
 
-            f_reg = Region.objects.only('fragments', 'ccid', doc_attr).get(id=f.region.id)
+            f_reg = Region.objects.only('fragments', 'ccid', doc_attr).get(
+                id=f.region.id
+            )
 
             if (source_emb_doc := getattr(f_reg, doc_attr)).extrapolated:
                 raise Exception(
-                    f"Extrapolation error - could not extrapolate {target_cls} data for "
-                    f"{self} using intersecting {frag_type.name} regions, since those "
-                    f"intersecting regions have extrapolated data themselves. Make sure "
-                    f"extrapolated data is sourced from non-extrapolated regions."
+                    f"Extrapolation error - could not extrapolate {target_cls} data for"
+                    f" {self} using intersecting {frag_type.name} regions, since those"
+                    " intersecting regions have extrapolated data themselves. Make"
+                    " sure extrapolated data is sourced from non-extrapolated regions."
                 )
 
             for field in target._fields.keys():
                 if field not in omit:
                     curr = getattr(target, field) if getattr(target, field) else 0
-                    new_val = curr + getattr(source_emb_doc, field)*f.perc_of_whole
+                    new_val = curr + getattr(source_emb_doc, field) * f.perc_of_whole
                     setattr(target, field, new_val)
 
         target.extrapolated = True
@@ -258,12 +274,6 @@ class District(Region):
     district_no = StringField(required=True)
     district_type = StringField(required=True)
     shortcode = StringField(required=True)
-    incumbents = EmbeddedDocumentListField(Incumbent)
-    presidential_elections = SortedListField(
-        EmbeddedDocumentField('PresidentialElection'),
-        ordering="year",
-        reverse=True
-    )
 
     meta = {'allow_inheritance': True}
 
@@ -293,26 +303,14 @@ class StateLegDistLower(District):
 
 
 class RegionType(Enum):
-    STATE = (
-        "State",
-        State,
-        "G4000",
-        "Region.State",
-        "state"
-    )
-    COUNTY = (
-        "County",
-        County,
-        "G4020",
-        "Region.County",
-        "county"
-    )
+    STATE = ("State", State, "G4000", "Region.State", "state")
+    COUNTY = ("County", County, "G4020", "Region.County", "county")
     CONGR = (
         "Congressional District",
         CongressionalDistrict,
         "G5200",
         "Region.District.CongressionalDistrict",
-        "congressional district"
+        "congressional district",
     )
     SLDU = (
         "Upper State Legislative District",
@@ -320,8 +318,7 @@ class RegionType(Enum):
         "G5210",
         "Region.District.StateLegDistUpper",
         "state legislative district (upper chamber)",
-        "S"
-
+        "S",
     )
     SLDL = (
         "Lower State Legislative District",
@@ -329,18 +326,10 @@ class RegionType(Enum):
         "G5220",
         "Region.District.StateLegDistLower",
         "state legislative district (lower chamber)",
-        "H"
+        "H",
     )
 
-    def __init__(
-        self,
-        full,
-        cls,
-        maf,
-        cls_name,
-        census,
-        dist_abbr=None
-    ):
+    def __init__(self, full, cls, maf, cls_name, census, dist_abbr=None):
         self.full = full
         self.cls = cls
         self.maf = maf
@@ -350,21 +339,27 @@ class RegionType(Enum):
 
     @classmethod
     def fuzzy_cast(cls, type_arg):
-        reg_tuples_to_instances = {rt[-1].value: rt[-1] for rt in dict(cls.__members__).items()}
+        reg_tuples_to_instances = {
+            rt[-1].value: rt[-1] for rt in dict(cls.__members__).items()
+        }
         found = None
 
         for reg_tuple in reg_tuples_to_instances.keys():
             if type_arg in reg_tuple:
 
                 if found:
-                    raise ValueError(f"RegionType Enum Error - fuzzy_cast argument {type_arg} "
-                                     f"matches with multiple RegionType options. Please change "
-                                     f"RegionType options to prevent collision like this.")
+                    raise ValueError(
+                        f"RegionType Enum Error - fuzzy_cast argument {type_arg} "
+                        "matches with multiple RegionType options. Please change "
+                        "RegionType options to prevent collision like this."
+                    )
 
                 found = reg_tuples_to_instances[reg_tuple]
 
         if not found:
-            raise ValueError(f"RegionType Enum Error - unable to parse argument {type_arg} as a "
-                             f"valid RegionType option.")
+            raise ValueError(
+                f"RegionType Enum Error - unable to parse argument {type_arg} as a "
+                "valid RegionType option."
+            )
 
         return found
