@@ -1,0 +1,250 @@
+HD #,County,County Pop. in HD,% of HD in County
+01A,Kittson,4552,0.115
+01A,Marshall,9439,0.239
+01A,Pennington,9939,0.251
+01A,Roseau,15629,0.395
+01B,Pennington,3991,0.101
+01B,Polk,31600,0.796
+01B,Red Lake,4089,0.103
+02A,Beltrami,18970,0.478
+02A,Clearwater,6668,0.168
+02A,Hubbard,10042,0.253
+02A,Lake of the Woods,4045,0.102
+02B,Becker,18754,0.471
+02B,Clearwater,2027,0.051
+02B,Hubbard,10113,0.254
+02B,Mahnomen,5413,0.136
+02B,Otter Tail,1122,0.028
+02B,Wadena,2379,0.06
+03A,Cook,5176,0.131
+03A,Koochiching,13311,0.337
+03A,Lake,5554,0.141
+03A,St. Louis,15421,0.391
+03B,Lake,5312,0.133
+03B,St. Louis,34552,0.867
+04A,Clay,39892,1
+04B,Becker,13750,0.346
+04B,Clay,19107,0.481
+04B,Norman,6852,0.173
+05A,Beltrami,25472,0.647
+05A,Cass,9678,0.246
+05A,Hubbard,273,0.007
+05A,Itasca,3944,0.1
+05B,Cass,8256,0.209
+05B,Itasca,31284,0.791
+06A,Itasca,9830,0.249
+06A,St. Louis,29671,0.751
+06B,St. Louis,39616,1
+07A,St. Louis,39214,1
+07B,St. Louis,39493,1
+08A,Otter Tail,39861,1
+08B,Douglas,23137,0.586
+08B,Otter Tail,16320,0.414
+09A,Cass,10633,0.269
+09A,Todd,17411,0.441
+09A,Wadena,11464,0.29
+09B,Morrison,32052,0.811
+09B,Todd,7484,0.189
+10A,Crow Wing,39314,1
+10B,Aitkin,16202,0.411
+10B,Crow Wing,23186,0.589
+11A,Carlton,35386,0.891
+11A,Pine,2058,0.052
+11A,St. Louis,2259,0.057
+11B,Kanabec,11867,0.3
+11B,Pine,27692,0.7
+12A,Big Stone,5269,0.133
+12A,Douglas,5181,0.13
+12A,Grant,6018,0.151
+12A,Pope,3408,0.086
+12A,Stevens,9726,0.245
+12A,Traverse,3558,0.09
+12A,Wilkin,6576,0.165
+12B,Douglas,7691,0.194
+12B,Pope,7587,0.191
+12B,Stearns,24343,0.614
+13A,Stearns,39585,1
+13B,Benton,15621,0.394
+13B,Stearns,24010,0.606
+14A,Stearns,39770,1
+14B,Benton,8042,0.202
+14B,Sherburne,8771,0.221
+14B,Stearns,22934,0.577
+15A,Kanabec,4372,0.111
+15A,Mille Lacs,26097,0.662
+15A,Sherburne,8965,0.227
+15B,Benton,14788,0.373
+15B,Morrison,1146,0.029
+15B,Sherburne,20724,0.522
+15B,Wright,3041,0.077
+16A,Lac qui Parle,7259,0.183
+16A,Lyon,20720,0.522
+16A,Redwood,1284,0.032
+16A,Yellow Medicine,10438,0.263
+16B,Brown,25893,0.653
+16B,Redwood,12414,0.313
+16B,Renville,1363,0.034
+17A,Chippewa,12441,0.316
+17A,Kandiyohi,2797,0.071
+17A,Renville,14367,0.365
+17A,Swift,9783,0.248
+17B,Kandiyohi,39442,1
+18A,McLeod,12416,0.313
+18A,Meeker,23300,0.587
+18A,Wright,4005,0.101
+18B,McLeod,24235,0.614
+18B,Sibley,15226,0.386
+19A,Blue Earth,5676,0.143
+19A,Le Sueur,1169,0.03
+19A,Nicollet,32727,0.827
+19B,Blue Earth,39704,1
+20A,Le Sueur,15467,0.39
+20A,Scott,24214,0.61
+20B,Le Sueur,6787,0.172
+20B,Rice,32762,0.828
+21A,Goodhue,31336,0.794
+21A,Wabasha,8146,0.206
+21B,Dodge,1356,0.034
+21B,Goodhue,12911,0.325
+21B,Wabasha,13530,0.341
+21B,Winona,11936,0.3
+22A,Lincoln,5896,0.149
+22A,Lyon,5137,0.13
+22A,Murray,8725,0.22
+22A,Nobles,574,0.014
+22A,Pipestone,9596,0.242
+22A,Rock,9687,0.245
+22B,Cottonwood,11687,0.296
+22B,Jackson,4661,0.118
+22B,Nobles,20804,0.527
+22B,Redwood,2361,0.06
+23A,Blue Earth,4,0
+23A,Faribault,10600,0.268
+23A,Jackson,5605,0.142
+23A,Martin,20840,0.527
+23A,Watonwan,2510,0.063
+23B,Blue Earth,18629,0.472
+23B,Le Sueur,4280,0.108
+23B,Waseca,7869,0.199
+23B,Watonwan,8701,0.22
+24A,Steele,28198,0.715
+24A,Waseca,11267,0.285
+24B,Dodge,1784,0.045
+24B,Rice,31380,0.794
+24B,Steele,6382,0.161
+25A,Dodge,14026,0.356
+25A,Olmsted,25400,0.644
+25B,Olmsted,39762,1
+26A,Olmsted,39637,1
+26B,Olmsted,39449,1
+27A,Dodge,2256,0.057
+27A,Faribault,3953,0.1
+27A,Freeborn,30892,0.781
+27A,Mower,448,0.011
+27A,Steele,1996,0.05
+27B,Dodge,665,0.017
+27B,Freeborn,363,0.009
+27B,Mower,38715,0.974
+28A,Winona,39525,1
+28B,Fillmore,20866,0.523
+28B,Houston,19027,0.477
+29A,Hennepin,426,0.011
+29A,Wright,38921,0.989
+29B,Wright,39336,1
+30A,Sherburne,38860,0.985
+30A,Wright,590,0.015
+30B,Hennepin,609,0.015
+30B,Wright,38807,0.985
+31A,Anoka,18801,0.477
+31A,Isanti,9413,0.239
+31A,Sherburne,11179,0.284
+31B,Anoka,39602,1
+32A,Chisago,11514,0.288
+32A,Isanti,28403,0.712
+32B,Chisago,39488,1
+33A,Hennepin,39560,1
+33B,Carver,12049,0.304
+33B,Hennepin,27530,0.696
+34A,Hennepin,39921,1
+34B,Hennepin,39890,1
+35A,Anoka,39619,1
+35B,Anoka,39428,1
+36A,Anoka,16555,0.418
+36A,Hennepin,23089,0.582
+36B,Anoka,12604,0.32
+36B,Hennepin,26819,0.68
+37A,Anoka,39553,1
+37B,Anoka,39686,1
+38A,Anoka,35559,0.9
+38A,Washington,3972,0.1
+38B,Ramsey,29175,0.737
+38B,Washington,10425,0.263
+39A,Chisago,2885,0.073
+39A,Washington,36610,0.927
+39B,Washington,39427,1
+40A,Hennepin,39541,1
+40B,Hennepin,39525,1
+41A,Anoka,29197,0.738
+41A,Ramsey,10343,0.262
+41B,Anoka,20240,0.511
+41B,Hennepin,5156,0.13
+41B,Ramsey,14183,0.358
+42A,Ramsey,39739,1
+42B,Ramsey,39768,1
+43A,Ramsey,30263,0.762
+43A,Washington,9454,0.238
+43B,Ramsey,16477,0.415
+43B,Washington,23219,0.585
+44A,Hennepin,39542,1
+44B,Hennepin,39567,1
+45A,Hennepin,39496,1
+45B,Hennepin,39398,1
+46A,Hennepin,39386,1
+46B,Hennepin,39403,1
+47A,Carver,39462,1
+47B,Carver,39531,1
+48A,Hennepin,39458,1
+48B,Hennepin,39688,1
+49A,Hennepin,39441,1
+49B,Hennepin,39822,1
+50A,Hennepin,39571,1
+50B,Hennepin,39627,1
+51A,Dakota,39687,1
+51B,Dakota,39559,1
+52A,Dakota,39400,1
+52B,Dakota,39651,1
+53A,Ramsey,12375,0.312
+53A,Washington,27273,0.688
+53B,Washington,39541,1
+54A,Dakota,8146,0.205
+54A,Washington,31595,0.795
+54B,Dakota,23122,0.582
+54B,Washington,16620,0.418
+55A,Scott,39368,1
+55B,Scott,39435,1
+56A,Dakota,12729,0.321
+56A,Scott,26911,0.679
+56B,Dakota,39728,1
+57A,Dakota,39343,1
+57B,Dakota,39831,1
+58A,Dakota,39504,1
+58B,Dakota,37852,0.951
+58B,Goodhue,1936,0.049
+59A,Hennepin,39653,1
+59B,Hennepin,39622,1
+60A,Hennepin,39625,1
+60B,Hennepin,39575,1
+61A,Hennepin,39635,1
+61B,Hennepin,39454,1
+62A,Hennepin,39496,1
+62B,Hennepin,39729,1
+63A,Hennepin,39667,1
+63B,Hennepin,39504,1
+64A,Ramsey,39630,1
+64B,Ramsey,39670,1
+65A,Ramsey,39531,1
+65B,Ramsey,39412,1
+66A,Ramsey,39435,1
+66B,Ramsey,39440,1
+67A,Ramsey,39453,1
+67B,Ramsey,39746,1

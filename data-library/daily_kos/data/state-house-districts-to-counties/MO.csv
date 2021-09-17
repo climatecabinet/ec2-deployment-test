@@ -1,0 +1,298 @@
+HD #,County,County Pop. in HD,% of HD in County
+1,Atchison,5685,0.157
+1,Holt,4912,0.136
+1,Nodaway,23370,0.647
+1,Worth,2171,0.06
+2,Daviess,8433,0.228
+2,DeKalb,12892,0.348
+2,Gentry,6738,0.182
+2,Harrison,8957,0.242
+3,Adair,21059,0.576
+3,Mercer,3785,0.104
+3,Putnam,4979,0.136
+3,Sullivan,6714,0.184
+4,Adair,4548,0.129
+4,Clark,7139,0.202
+4,Knox,4131,0.117
+4,Lewis,10211,0.289
+4,Schuyler,4431,0.126
+4,Scotland,4843,0.137
+5,Marion,28781,0.765
+5,Monroe,2465,0.066
+5,Shelby,6373,0.169
+6,Linn,2764,0.075
+6,Macon,15566,0.422
+6,Randolph,18590,0.504
+7,Grundy,10261,0.289
+7,Linn,9997,0.282
+7,Livingston,15195,0.429
+8,Caldwell,9424,0.256
+8,Clay,3245,0.088
+8,Clinton,20743,0.564
+8,Ray,3386,0.092
+9,Andrew,17291,0.466
+9,Buchanan,19828,0.534
+10,Buchanan,37035,1
+11,Buchanan,32338,0.851
+11,Platte,5677,0.149
+12,Clay,28411,0.746
+12,Platte,9697,0.254
+13,Platte,37018,1
+14,Clay,1212,0.032
+14,Platte,36930,0.968
+15,Clay,37199,1
+16,Clay,37983,1
+17,Clay,38012,1
+18,Clay,37919,1
+19,Jackson,36335,1
+20,Jackson,37841,1
+21,Jackson,37925,1
+22,Jackson,36168,1
+23,Jackson,35521,1
+24,Jackson,37866,1
+25,Jackson,36857,1
+26,Jackson,36233,1
+27,Jackson,35425,1
+28,Jackson,35873,1
+29,Jackson,36684,1
+30,Jackson,36069,1
+31,Jackson,36827,1
+32,Jackson,36744,1
+33,Cass,22610,0.635
+33,Jackson,12875,0.362
+33,Lafayette,109,0.003
+34,Jackson,35832,1
+35,Jackson,38015,1
+36,Jackson,38040,1
+37,Cass,3787,0.099
+37,Jackson,34352,0.901
+38,Clay,37958,1
+39,Carroll,9295,0.263
+39,Chariton,5901,0.167
+39,Ray,20108,0.57
+40,Lincoln,560,0.016
+40,Monroe,6375,0.179
+40,Pike,18516,0.52
+40,Ralls,10167,0.285
+41,Lincoln,38050,1
+42,Montgomery,12236,0.323
+42,St. Charles,2055,0.054
+42,Warren,23641,0.623
+43,Audrain,25529,0.72
+43,Callaway,9905,0.28
+44,Boone,35167,0.978
+44,Randolph,801,0.022
+45,Boone,35636,1
+46,Boone,36530,1
+47,Boone,28154,0.796
+47,Cooper,565,0.016
+47,Howard,1651,0.047
+47,Randolph,5020,0.142
+48,Chariton,1930,0.054
+48,Cooper,15448,0.436
+48,Howard,8493,0.24
+48,Pettis,3633,0.103
+48,Randolph,1003,0.028
+48,Saline,4921,0.139
+49,Callaway,34427,0.947
+49,Cole,1920,0.053
+50,Boone,27155,0.737
+50,Cole,1316,0.036
+50,Cooper,1588,0.043
+50,Moniteau,6764,0.184
+51,Johnson,13156,0.371
+51,Pettis,3834,0.108
+51,Saline,18449,0.521
+52,Johnson,6988,0.19
+52,Pettis,29874,0.81
+53,Jackson,1244,0.035
+53,Johnson,1228,0.034
+53,Lafayette,33272,0.931
+54,Johnson,31223,0.865
+54,Pettis,4860,0.135
+55,Cass,35411,1
+56,Bates,720,0.02
+56,Cass,33677,0.94
+56,Jackson,1432,0.04
+57,Bates,806,0.023
+57,Benton,8249,0.234
+57,Cass,3993,0.113
+57,Henry,22272,0.631
+58,Miller,5903,0.167
+58,Moniteau,8843,0.25
+58,Morgan,20565,0.582
+59,Cole,33848,0.933
+59,Miller,2424,0.067
+60,Cole,36900,1
+61,Cole,60,0.002
+61,Franklin,24180,0.676
+61,Gasconade,6360,0.178
+61,Osage,5177,0.145
+62,Cole,1946,0.054
+62,Crawford,629,0.018
+62,Gasconade,8862,0.248
+62,Maries,9176,0.256
+62,Miller,1738,0.049
+62,Osage,8701,0.243
+62,Phelps,4752,0.133
+63,St. Charles,29298,0.768
+63,Warren,8872,0.232
+64,Lincoln,13956,0.369
+64,St. Charles,23893,0.631
+65,St. Charles,37714,1
+66,St. Louis,33528,0.887
+66,St. Louis city,4251,0.113
+67,St. Louis,37574,1
+68,St. Louis,36441,1
+69,St. Louis,37138,1
+70,St. Charles,7005,0.196
+70,St. Louis,28749,0.804
+71,St. Louis,35752,1
+72,St. Louis,36988,1
+73,St. Louis,36291,1
+74,St. Louis,37210,1
+75,St. Louis,36991,1
+76,St. Louis city,37443,1
+77,St. Louis city,36072,1
+78,St. Louis city,37961,1
+79,St. Louis city,37280,1
+80,St. Louis city,36382,1
+81,St. Louis city,37254,1
+82,St. Louis city,37144,1
+83,St. Louis,25804,0.7
+83,St. Louis city,11049,0.3
+84,St. Louis city,36036,1
+85,St. Louis,37897,1
+86,St. Louis,37549,1
+87,St. Louis,37710,1
+88,St. Louis,36377,1
+89,St. Louis,37799,1
+90,St. Louis,36703,1
+91,St. Louis,35137,0.965
+91,St. Louis city,1275,0.035
+92,St. Louis,36492,1
+93,St. Louis,29800,0.807
+93,St. Louis city,7147,0.193
+94,St. Louis,36475,1
+95,St. Louis,35645,1
+96,St. Louis,37655,1
+97,Jefferson,33066,0.927
+97,St. Louis,2598,0.073
+98,St. Louis,37412,1
+99,St. Louis,37425,1
+100,St. Louis,37201,1
+101,St. Louis,37361,1
+102,St. Charles,38077,1
+103,St. Charles,37957,1
+104,St. Charles,35833,1
+105,St. Charles,36794,1
+106,St. Charles,36798,1
+107,St. Charles,36932,1
+108,St. Charles,38129,1
+109,Franklin,36036,1
+110,Franklin,7357,0.201
+110,St. Louis,29252,0.799
+111,Jefferson,35423,1
+112,Jefferson,36574,1
+113,Jefferson,36333,1
+114,Jefferson,35794,1
+115,Jefferson,19715,0.553
+115,Ste. Genevieve,2527,0.071
+115,St. Francois,13395,0.376
+116,Perry,6206,0.169
+116,Ste. Genevieve,15618,0.426
+116,St. Francois,14864,0.405
+117,St. Francois,37100,1
+118,Jefferson,21828,0.6
+118,Washington,14566,0.4
+119,Franklin,33919,0.96
+119,Washington,1424,0.04
+120,Crawford,24067,0.664
+120,Phelps,12168,0.336
+121,Phelps,26124,0.714
+121,Pulaski,10472,0.286
+122,Pulaski,36964,1
+123,Camden,21827,0.589
+123,Laclede,15259,0.411
+124,Camden,22175,0.602
+124,Miller,14683,0.398
+125,Benton,10807,0.293
+125,Cedar,6632,0.18
+125,Hickory,9627,0.261
+125,St. Clair,9805,0.266
+126,Bates,15523,0.423
+126,Vernon,21159,0.577
+127,Barton,12402,0.339
+127,Cedar,1464,0.04
+127,Dade,7883,0.216
+127,Jasper,14828,0.405
+128,Cedar,5886,0.159
+128,Polk,31137,0.841
+129,Dallas,16777,0.452
+129,Laclede,20312,0.548
+130,Greene,36297,1
+131,Greene,37672,1
+132,Greene,36007,1
+133,Greene,37100,1
+134,Greene,36518,1
+135,Greene,36723,1
+136,Greene,36634,1
+137,Greene,18223,0.493
+137,Webster,18730,0.507
+138,Christian,3898,0.105
+138,Stone,31898,0.862
+138,Taney,1188,0.032
+139,Christian,36623,1
+140,Christian,36901,1
+141,Webster,17472,0.481
+141,Wright,18815,0.519
+142,Howell,4126,0.111
+142,Phelps,2112,0.057
+142,Pulaski,4838,0.13
+142,Texas,26008,0.701
+143,Dent,15657,0.437
+143,Oregon,10881,0.304
+143,Reynolds,858,0.024
+143,Shannon,8441,0.236
+144,Iron,10630,0.297
+144,Reynolds,5838,0.163
+144,Washington,9205,0.257
+144,Wayne,10102,0.282
+145,Bollinger,12363,0.331
+145,Madison,12226,0.327
+145,Perry,12765,0.342
+146,Cape Girardeau,38063,1
+147,Cape Girardeau,37611,1
+148,Mississippi,9562,0.266
+148,Scott,26447,0.734
+149,Mississippi,4796,0.132
+149,New Madrid,18956,0.52
+149,Pemiscot,6277,0.172
+149,Scott,6441,0.177
+150,Dunklin,24366,0.67
+150,Pemiscot,12019,0.33
+151,Scott,6303,0.174
+151,Stoddard,29968,0.826
+152,Butler,29527,0.796
+152,Dunklin,7587,0.204
+153,Butler,13267,0.358
+153,Carter,6265,0.169
+153,Ripley,14100,0.381
+153,Wayne,3419,0.092
+154,Howell,36274,1
+155,Douglas,13684,0.372
+155,Ozark,9723,0.264
+155,Taney,13421,0.364
+156,Taney,37066,1
+157,Lawrence,37325,1
+158,Barry,35597,0.957
+158,Lawrence,1309,0.035
+158,Stone,304,0.008
+159,McDonald,23083,0.638
+159,Newton,13084,0.362
+160,Newton,36973,1
+161,Jasper,28961,0.785
+161,Newton,7925,0.215
+162,Jasper,36573,0.996
+162,Newton,132,0.004
+163,Jasper,37042,1

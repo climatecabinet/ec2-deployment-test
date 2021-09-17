@@ -1,0 +1,180 @@
+HD #,County,County Pop. in HD,% of HD in County
+1,Escambia,156303,1
+2,Escambia,141316,0.906
+2,Santa Rosa,14616,0.094
+3,Okaloosa,22041,0.139
+3,Santa Rosa,136756,0.861
+4,Okaloosa,158781,1
+5,Bay,9586,0.06
+5,Holmes,19927,0.125
+5,Jackson,49746,0.312
+5,Walton,55043,0.346
+5,Washington,24896,0.156
+6,Bay,159266,1
+7,Calhoun,14625,0.094
+7,Franklin,11549,0.074
+7,Gulf,15863,0.102
+7,Jefferson,14761,0.095
+7,Lafayette,8870,0.057
+7,Leon,9585,0.061
+7,Liberty,8365,0.054
+7,Madison,19224,0.123
+7,Taylor,22570,0.145
+7,Wakulla,30776,0.197
+8,Gadsden,46389,0.298
+8,Leon,109532,0.702
+9,Leon,156370,1
+10,Alachua,5427,0.035
+10,Baker,27115,0.173
+10,Columbia,67531,0.432
+10,Hamilton,14799,0.095
+10,Suwannee,41551,0.266
+11,Duval,82709,0.53
+11,Nassau,73314,0.47
+12,Duval,156867,1
+13,Duval,156504,1
+14,Duval,155895,1
+15,Duval,155797,1
+16,Duval,156491,1
+17,St. Johns,157926,1
+18,Clay,154544,1
+19,Bradford,28520,0.184
+19,Clay,36321,0.235
+19,Putnam,74364,0.481
+19,Union,15535,0.1
+20,Alachua,118352,0.755
+20,Marion,38504,0.245
+21,Alachua,123557,0.787
+21,Dixie,16422,0.105
+21,Gilchrist,16939,0.108
+22,Levy,40801,0.264
+22,Marion,113925,0.736
+23,Marion,155606,1
+24,Flagler,95696,0.606
+24,St. Johns,32113,0.203
+24,Volusia,30087,0.191
+25,Volusia,155316,1
+26,Volusia,154078,1
+27,Volusia,155112,1
+28,Seminole,158813,1
+29,Seminole,159162,1
+30,Orange,51410,0.329
+30,Seminole,104743,0.671
+31,Lake,101583,0.641
+31,Orange,56879,0.359
+32,Lake,155664,1
+33,Lake,39805,0.254
+33,Marion,23263,0.149
+33,Sumter,93420,0.597
+34,Citrus,141236,0.899
+34,Hernando,15907,0.101
+35,Hernando,156871,1
+36,Pasco,154847,1
+37,Pasco,154993,1
+38,Pasco,154857,1
+39,Osceola,18826,0.122
+39,Polk,135991,0.878
+40,Polk,155028,1
+41,Polk,155727,1
+42,Osceola,91873,0.593
+42,Polk,63042,0.407
+43,Osceola,157986,1
+44,Orange,157485,1
+45,Orange,156253,1
+46,Orange,156157,1
+47,Orange,158274,1
+48,Orange,156456,1
+49,Orange,159069,1
+50,Brevard,64904,0.409
+50,Orange,93973,0.591
+51,Brevard,159406,1
+52,Brevard,159438,1
+53,Brevard,159628,1
+54,Indian River,138028,0.884
+54,St. Lucie,18025,0.116
+55,Glades,12884,0.083
+55,Highlands,98786,0.634
+55,Okeechobee,39996,0.257
+55,St. Lucie,4216,0.027
+56,DeSoto,34862,0.225
+56,Hardee,27731,0.179
+56,Polk,92307,0.596
+57,Hillsborough,157418,1
+58,Hillsborough,158568,1
+59,Hillsborough,158232,1
+60,Hillsborough,158517,1
+61,Hillsborough,159521,1
+62,Hillsborough,158453,1
+63,Hillsborough,158227,1
+64,Hillsborough,108725,0.689
+64,Pinellas,49038,0.311
+65,Pinellas,157869,1
+66,Pinellas,158786,1
+67,Pinellas,158424,1
+68,Pinellas,158551,1
+69,Pinellas,158702,1
+70,Hillsborough,11565,0.075
+70,Manatee,49192,0.319
+70,Pinellas,75172,0.488
+70,Sarasota,18115,0.118
+71,Manatee,138111,0.871
+71,Sarasota,20483,0.129
+72,Sarasota,159167,1
+73,Manatee,135530,0.851
+73,Sarasota,23719,0.149
+74,Sarasota,157964,1
+75,Charlotte,159978,1
+76,Lee,153745,1
+77,Lee,157482,1
+78,Lee,153781,1
+79,Lee,153746,1
+80,Collier,116497,0.749
+80,Hendry,39140,0.251
+81,Palm Beach,156038,1
+82,Martin,88966,0.568
+82,Palm Beach,67583,0.432
+83,Martin,57352,0.367
+83,St. Lucie,99018,0.633
+84,St. Lucie,156530,1
+85,Palm Beach,158426,1
+86,Palm Beach,157949,1
+87,Palm Beach,156640,1
+88,Palm Beach,156720,1
+89,Palm Beach,155172,1
+90,Palm Beach,154984,1
+91,Palm Beach,156622,1
+92,Broward,154926,1
+93,Broward,157815,1
+94,Broward,156361,1
+95,Broward,154882,1
+96,Broward,155095,1
+97,Broward,155698,1
+98,Broward,155182,1
+99,Broward,155731,1
+100,Broward,66325,0.428
+100,Miami-Dade,88486,0.572
+101,Broward,154888,1
+102,Broward,69243,0.44
+102,Miami-Dade,88040,0.56
+103,Broward,39835,0.255
+103,Miami-Dade,116669,0.745
+104,Broward,155234,1
+105,Broward,16851,0.107
+105,Collier,49635,0.315
+105,Miami-Dade,90883,0.578
+106,Collier,155388,1
+107,Miami-Dade,156958,1
+108,Miami-Dade,156848,1
+109,Miami-Dade,154121,1
+110,Miami-Dade,154817,1
+111,Miami-Dade,156697,1
+112,Miami-Dade,154895,1
+113,Miami-Dade,156568,1
+114,Miami-Dade,158069,1
+115,Miami-Dade,156215,1
+116,Miami-Dade,155722,1
+117,Miami-Dade,156881,1
+118,Miami-Dade,156562,1
+119,Miami-Dade,156170,1
+120,Miami-Dade,81834,0.528
+120,Monroe,73090,0.472

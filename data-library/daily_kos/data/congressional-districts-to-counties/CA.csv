@@ -1,0 +1,125 @@
+CD #,County,County Pop. in CD,% of CD in County
+1,Butte,220000,0.313
+1,Glenn,2321,0.003
+1,Lassen,34895,0.05
+1,Modoc,9686,0.014
+1,Nevada,82378,0.117
+1,Placer,44792,0.064
+1,Plumas,20007,0.028
+1,Shasta,177223,0.252
+1,Sierra,3240,0.005
+1,Siskiyou,44900,0.064
+1,Tehama,63463,0.09
+2,Del Norte,28610,0.041
+2,Humboldt,134623,0.192
+2,Marin,252409,0.359
+2,Mendocino,87841,0.125
+2,Sonoma,185636,0.264
+2,Trinity,13786,0.02
+3,Colusa,21419,0.03
+3,Glenn,25801,0.037
+3,Lake,33614,0.048
+3,Sacramento,35921,0.051
+3,Solano,267184,0.38
+3,Sutter,94737,0.135
+3,Yolo,152105,0.216
+3,Yuba,72155,0.103
+4,Alpine,1175,0.002
+4,Amador,38091,0.054
+4,Calaveras,45578,0.065
+4,El Dorado,181058,0.258
+4,Fresno,14912,0.021
+4,Madera,28450,0.04
+4,Mariposa,18251,0.026
+4,Nevada,16386,0.023
+4,Placer,303640,0.432
+4,Tuolumne,55365,0.079
+5,Contra Costa,90968,0.129
+5,Lake,31051,0.044
+5,Napa,136484,0.194
+5,Solano,146160,0.208
+5,Sonoma,298242,0.424
+6,Sacramento,654118,0.931
+6,Yolo,48744,0.069
+7,Sacramento,702917,1
+8,Inyo,18546,0.026
+8,Mono,14202,0.02
+8,San Bernardino,670153,0.953
+9,Contra Costa,180218,0.256
+9,Sacramento,25832,0.037
+9,San Joaquin,496854,0.707
+10,San Joaquin,188452,0.268
+10,Stanislaus,514453,0.732
+11,Contra Costa,702906,1
+12,San Francisco,702905,1
+13,Alameda,702906,1
+14,San Francisco,102330,0.146
+14,San Mateo,600575,0.854
+15,Alameda,627971,0.893
+15,Contra Costa,74933,0.107
+16,Fresno,324696,0.462
+16,Madera,122415,0.174
+16,Merced,255793,0.364
+17,Alameda,179394,0.255
+17,Santa Clara,523513,0.745
+18,San Mateo,117876,0.168
+18,Santa Clara,535700,0.762
+18,Santa Cruz,49327,0.07
+19,Santa Clara,702904,1
+20,Monterey,415057,0.59
+20,San Benito,55269,0.079
+20,Santa Clara,19525,0.028
+20,Santa Cruz,213055,0.303
+21,Fresno,201449,0.287
+21,Kern,313718,0.446
+21,Kings,152982,0.218
+21,Tulare,34755,0.049
+22,Fresno,389393,0.554
+22,Tulare,313512,0.446
+23,Kern,525913,0.748
+23,Los Angeles,83079,0.118
+23,Tulare,93912,0.134
+24,San Luis Obispo,269637,0.384
+24,Santa Barbara,423895,0.603
+24,Ventura,9372,0.013
+25,Los Angeles,585642,0.833
+25,Ventura,117262,0.167
+26,Los Angeles,8270,0.012
+26,Ventura,694635,0.988
+27,Los Angeles,670024,0.953
+27,San Bernardino,32881,0.047
+28,Los Angeles,702904,1
+29,Los Angeles,702905,1
+30,Los Angeles,700855,0.997
+30,Ventura,2049,0.003
+31,San Bernardino,702909,1
+32,Los Angeles,702905,1
+33,Los Angeles,702904,1
+34,Los Angeles,702904,1
+35,Los Angeles,149058,0.212
+35,San Bernardino,553847,0.788
+36,Riverside,702905,1
+37,Los Angeles,702904,1
+38,Los Angeles,687337,0.978
+38,Orange,15571,0.022
+39,Los Angeles,195205,0.278
+39,Orange,432280,0.615
+39,San Bernardino,75420,0.107
+40,Los Angeles,702904,1
+41,Riverside,702967,1
+42,Riverside,702847,1
+43,Los Angeles,702904,1
+44,Los Angeles,702904,1
+45,Orange,702921,1
+46,Orange,702942,1
+47,Los Angeles,412997,0.588
+47,Orange,289844,0.412
+48,Orange,702916,1
+49,Orange,163758,0.233
+49,San Diego,539146,0.767
+50,Riverside,80922,0.115
+50,San Diego,621981,0.885
+51,Imperial,174528,0.248
+51,San Diego,528378,0.752
+52,San Diego,702904,1
+53,San Diego,702904,1

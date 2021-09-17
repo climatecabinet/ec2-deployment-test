@@ -1,0 +1,172 @@
+SD #,County,County Pop. in SD,% of SD in County
+1,Kittson,4552,0.057
+1,Marshall,9439,0.119
+1,Pennington,13930,0.176
+1,Polk,31600,0.399
+1,Red Lake,4089,0.052
+1,Roseau,15629,0.197
+2,Becker,18754,0.236
+2,Beltrami,18970,0.239
+2,Clearwater,8695,0.109
+2,Hubbard,20155,0.253
+2,Lake of the Woods,4045,0.051
+2,Mahnomen,5413,0.068
+2,Otter Tail,1122,0.014
+2,Wadena,2379,0.03
+3,Cook,5176,0.065
+3,Koochiching,13311,0.168
+3,Lake,10866,0.137
+3,St. Louis,49973,0.63
+4,Becker,13750,0.173
+4,Clay,58999,0.741
+4,Norman,6852,0.086
+5,Beltrami,25472,0.323
+5,Cass,17934,0.227
+5,Hubbard,273,0.003
+5,Itasca,35228,0.446
+6,Itasca,9830,0.124
+6,St. Louis,69287,0.876
+7,St. Louis,78707,1
+8,Douglas,23137,0.292
+8,Otter Tail,56181,0.708
+9,Cass,10633,0.135
+9,Morrison,32052,0.405
+9,Todd,24895,0.315
+9,Wadena,11464,0.145
+10,Aitkin,16202,0.206
+10,Crow Wing,62500,0.794
+11,Carlton,35386,0.446
+11,Kanabec,11867,0.15
+11,Pine,29750,0.375
+11,St. Louis,2259,0.029
+12,Big Stone,5269,0.066
+12,Douglas,12872,0.162
+12,Grant,6018,0.076
+12,Pope,10995,0.139
+12,Stearns,24343,0.307
+12,Stevens,9726,0.123
+12,Traverse,3558,0.045
+12,Wilkin,6576,0.083
+13,Benton,15621,0.197
+13,Stearns,63595,0.803
+14,Benton,8042,0.101
+14,Sherburne,8771,0.11
+14,Stearns,62704,0.789
+15,Benton,14788,0.187
+15,Kanabec,4372,0.055
+15,Mille Lacs,26097,0.33
+15,Morrison,1146,0.014
+15,Sherburne,29689,0.375
+15,Wright,3041,0.038
+16,Brown,25893,0.326
+16,Lac qui Parle,7259,0.091
+16,Lyon,20720,0.261
+16,Redwood,13698,0.173
+16,Renville,1363,0.017
+16,Yellow Medicine,10438,0.132
+17,Chippewa,12441,0.158
+17,Kandiyohi,42239,0.536
+17,Renville,14367,0.182
+17,Swift,9783,0.124
+18,McLeod,36651,0.463
+18,Meeker,23300,0.294
+18,Sibley,15226,0.192
+18,Wright,4005,0.051
+19,Blue Earth,45380,0.572
+19,Le Sueur,1169,0.015
+19,Nicollet,32727,0.413
+20,Le Sueur,22254,0.281
+20,Rice,32762,0.414
+20,Scott,24214,0.306
+21,Dodge,1356,0.017
+21,Goodhue,44247,0.559
+21,Wabasha,21676,0.274
+21,Winona,11936,0.151
+22,Cottonwood,11687,0.148
+22,Jackson,4661,0.059
+22,Lincoln,5896,0.075
+22,Lyon,5137,0.065
+22,Murray,8725,0.11
+22,Nobles,21378,0.27
+22,Pipestone,9596,0.121
+22,Redwood,2361,0.03
+22,Rock,9687,0.122
+23,Blue Earth,18633,0.236
+23,Faribault,10600,0.134
+23,Jackson,5605,0.071
+23,Le Sueur,4280,0.054
+23,Martin,20840,0.264
+23,Waseca,7869,0.1
+23,Watonwan,11211,0.142
+24,Dodge,1784,0.023
+24,Rice,31380,0.397
+24,Steele,34580,0.438
+24,Waseca,11267,0.143
+25,Dodge,14026,0.177
+25,Olmsted,65162,0.823
+26,Olmsted,79086,1
+27,Dodge,2921,0.037
+27,Faribault,3953,0.05
+27,Freeborn,31255,0.394
+27,Mower,39163,0.494
+27,Steele,1996,0.025
+28,Fillmore,20866,0.263
+28,Houston,19027,0.24
+28,Winona,39525,0.498
+29,Hennepin,426,0.005
+29,Wright,78257,0.995
+30,Hennepin,609,0.008
+30,Sherburne,38860,0.493
+30,Wright,39397,0.5
+31,Anoka,58403,0.739
+31,Isanti,9413,0.119
+31,Sherburne,11179,0.142
+32,Chisago,51002,0.642
+32,Isanti,28403,0.358
+33,Carver,12049,0.152
+33,Hennepin,67090,0.848
+34,Hennepin,79811,1
+35,Anoka,79047,1
+36,Anoka,29159,0.369
+36,Hennepin,49908,0.631
+37,Anoka,79239,1
+38,Anoka,35559,0.449
+38,Ramsey,29175,0.369
+38,Washington,14397,0.182
+39,Chisago,2885,0.037
+39,Washington,76037,0.963
+40,Hennepin,79066,1
+41,Anoka,49437,0.625
+41,Hennepin,5156,0.065
+41,Ramsey,24526,0.31
+42,Ramsey,79507,1
+43,Ramsey,46740,0.589
+43,Washington,32673,0.411
+44,Hennepin,79109,1
+45,Hennepin,78894,1
+46,Hennepin,78789,1
+47,Carver,78993,1
+48,Hennepin,79146,1
+49,Hennepin,79263,1
+50,Hennepin,79198,1
+51,Dakota,79246,1
+52,Dakota,79051,1
+53,Ramsey,12375,0.156
+53,Washington,66814,0.844
+54,Dakota,31268,0.393
+54,Washington,48215,0.607
+55,Scott,78803,1
+56,Dakota,52457,0.661
+56,Scott,26911,0.339
+57,Dakota,79174,1
+58,Dakota,77356,0.976
+58,Goodhue,1936,0.024
+59,Hennepin,79275,1
+60,Hennepin,79200,1
+61,Hennepin,79089,1
+62,Hennepin,79225,1
+63,Hennepin,79171,1
+64,Ramsey,79300,1
+65,Ramsey,78943,1
+66,Ramsey,78875,1
+67,Ramsey,79199,1

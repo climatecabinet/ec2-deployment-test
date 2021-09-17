@@ -1,0 +1,113 @@
+SD #,County,County Pop. in SD,% of SD in County
+1,Alpine,1175,0.001
+1,El Dorado,181058,0.194
+1,Lassen,34895,0.037
+1,Modoc,9686,0.01
+1,Nevada,98764,0.106
+1,Placer,219421,0.235
+1,Plumas,20007,0.021
+1,Sacramento,145070,0.155
+1,Shasta,177223,0.189
+1,Sierra,3240,0.003
+1,Siskiyou,44900,0.048
+2,Del Norte,28610,0.031
+2,Humboldt,134623,0.145
+2,Lake,64665,0.07
+2,Marin,252409,0.272
+2,Mendocino,87841,0.095
+2,Sonoma,346143,0.373
+2,Trinity,13786,0.015
+3,Contra Costa,79647,0.086
+3,Napa,136484,0.147
+3,Sacramento,8886,0.01
+3,Solano,413344,0.445
+3,Sonoma,137735,0.148
+3,Yolo,152105,0.164
+4,Butte,220000,0.235
+4,Colusa,21419,0.023
+4,Glenn,28122,0.03
+4,Placer,129011,0.138
+4,Sacramento,308954,0.329
+4,Sutter,94737,0.101
+4,Tehama,63463,0.068
+4,Yuba,72155,0.077
+5,Sacramento,26370,0.028
+5,San Joaquin,685306,0.73
+5,Stanislaus,227489,0.242
+6,Sacramento,887527,0.948
+6,Yolo,48744,0.052
+7,Alameda,202073,0.219
+7,Contra Costa,722629,0.781
+8,Amador,38091,0.041
+8,Calaveras,45578,0.049
+8,Fresno,520231,0.56
+8,Inyo,18546,0.02
+8,Madera,28450,0.031
+8,Mariposa,18251,0.02
+8,Mono,14202,0.015
+8,Sacramento,41981,0.045
+8,Stanislaus,144972,0.156
+8,Tulare,4045,0.004
+8,Tuolumne,55365,0.06
+9,Alameda,693852,0.738
+9,Contra Costa,246749,0.262
+10,Alameda,614346,0.665
+10,Santa Clara,309361,0.335
+11,San Francisco,805235,0.865
+11,San Mateo,125618,0.135
+12,Fresno,132966,0.142
+12,Madera,122415,0.131
+12,Merced,255793,0.274
+12,Monterey,224785,0.241
+12,San Benito,55269,0.059
+12,Stanislaus,141992,0.152
+13,San Mateo,592833,0.639
+13,Santa Clara,334647,0.361
+14,Fresno,277253,0.296
+14,Kern,287918,0.308
+14,Kings,152982,0.164
+14,Tulare,217223,0.232
+15,Santa Clara,928584,1
+16,Kern,551713,0.598
+16,San Bernardino,149499,0.162
+16,Tulare,220911,0.24
+17,Monterey,190272,0.204
+17,San Luis Obispo,269637,0.29
+17,Santa Clara,209050,0.224
+17,Santa Cruz,262382,0.282
+18,Los Angeles,928725,1
+19,Santa Barbara,423895,0.456
+19,Ventura,504955,0.544
+20,Los Angeles,149602,0.16
+20,San Bernardino,786333,0.84
+21,Los Angeles,597741,0.643
+21,San Bernardino,332541,0.357
+22,Los Angeles,929298,1
+23,Los Angeles,71,0
+23,Riverside,318957,0.342
+23,San Bernardino,614779,0.658
+24,Los Angeles,933510,1
+25,Los Angeles,849676,0.917
+25,San Bernardino,77259,0.083
+26,Los Angeles,927757,1
+27,Los Angeles,617293,0.66
+27,Ventura,318363,0.34
+28,Riverside,930074,1
+29,Los Angeles,167827,0.181
+29,Orange,682865,0.738
+29,San Bernardino,74799,0.081
+30,Los Angeles,922496,1
+31,Riverside,940610,1
+32,Los Angeles,871577,0.934
+32,Orange,61832,0.066
+33,Los Angeles,926908,1
+34,Los Angeles,61445,0.066
+34,Orange,866345,0.934
+35,Los Angeles,934679,1
+36,Orange,459283,0.491
+36,San Diego,476982,0.509
+37,Orange,939907,1
+38,San Diego,929760,1
+39,San Diego,928044,1
+40,Imperial,174528,0.187
+40,San Diego,760527,0.813

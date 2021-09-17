@@ -1,0 +1,39 @@
+__pycache__
+bin
+include
+lib
+.Python
+.ipynb_checkpoints
+output.txt
+exports/*
+.Rproj.user
+papers.db
+**/validate_scorecards_log.txt
+app/generate/briefs/templates/*
+
+# Virtual environment
+venv/
+.env/
+.python-version
+
+# Pycharm files
+.idea
+
+# VSCode
+**/*.code-workspace
+.vscode
+
+# Mac icons etc.
+**/.DS_Store
+
+# The TIGER shapefile data is too large for the github repo
+data-library/tiger/raw-data
+data-library/tiger/data
+
+# Google Drive API tokens and secrets
+utils/token.pickle
+utils/credentials.json
+
+# Webflow CMS secrets
+app/helpers/sync_webflow_cms_secrets.py
+

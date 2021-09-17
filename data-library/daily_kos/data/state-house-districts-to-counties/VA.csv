@@ -1,0 +1,254 @@
+HD #,County,County Pop. in HD,% of HD in County
+1,Lee county,25587,0.317819347
+1,Norton city,3958,0.049162816
+1,Scott county,23177,0.287884434
+1,Wise county,27786,0.345133403
+2,Prince William county,45961,0.578191242
+2,Stafford county,33530,0.421808758
+3,Bland county,6824,0.084682874
+3,Buchanan county,24098,0.299045704
+3,Russell county,4583,0.056873038
+3,Tazewell county,45078,0.559398384
+4,Dickenson county,15903,0.197685404
+4,Russell county,24314,0.302240012
+4,Washington county,26563,0.330196654
+4,Wise county,13666,0.169877931
+5,Bristol city,17835,0.221277916
+5,Galax city,7042,0.087369727
+5,Grayson county,15533,0.192717122
+5,Smyth county,11877,0.14735732
+5,Washington county,28313,0.351277916
+6,Carroll county,30042,0.377374133
+6,Smyth county,20331,0.255388906
+6,Wythe county,29235,0.367236961
+7,Floyd county,15279,0.190639583
+7,Montgomery county,35026,0.437027425
+7,Pulaski county,29841,0.372332992
+8,Craig county,5190,0.064324224
+8,Montgomery county,17599,0.218119849
+8,Roanoke county,33094,0.410162979
+8,Salem city,24802,0.307392948
+9,Franklin county,46650,0.578970884
+9,Henry county,15434,0.191550624
+9,Patrick county,18490,0.229478492
+10,Clarke county,4309,0.053450265
+10,Frederick county,13649,0.169306722
+10,Loudoun county,62659,0.777243013
+11,Roanoke city,80132,1
+12,Giles county,17286,0.214754261
+12,Montgomery county,41767,0.518896288
+12,Pulaski county,5031,0.062503106
+12,Radford city,16408,0.203846345
+13,Manassas Park city,14273,0.177130518
+13,Prince William county,66306,0.822869482
+14,Danville city,43055,0.542206606
+14,Henry county,15368,0.193534575
+14,Pittsylvania county,20984,0.264258818
+15,Page county,24042,0.298176857
+15,Rockingham county,4966,0.061589979
+15,Shenandoah county,41993,0.520811112
+15,Warren county,9629,0.119422051
+16,Henry county,23349,0.292990513
+16,Martinsville city,13821,0.173430206
+16,Pittsylvania county,42522,0.53357928
+17,Botetourt county,4449,0.055177289
+17,Roanoke city,16900,0.209596805
+17,Roanoke county,59282,0.735225906
+18,Culpeper county,12895,0.162303335
+18,Fauquier county,40915,0.514977974
+18,Rappahannock county,7373,0.092800503
+18,Warren county,18267,0.229918188
+19,Alleghany county,16250,0.202922078
+19,Bedford County,29170,0.364260739
+19,Botetourt county,28699,0.358379121
+19,Covington city,5961,0.074438062
+20,Augusta county,24485,0.30863186
+20,Highland county,2321,0.029256057
+20,Nelson county,7776,0.098015983
+20,Staunton city,23746,0.299316812
+20,Waynesboro city,21006,0.264779288
+21,Chesapeake city,5030,0.063184605
+21,Virginia Beach city,74578,0.936815395
+22,Bedford County,28780,0.362893566
+22,Campbell county,17154,0.216298687
+22,Franklin county,9509,0.119901144
+22,Lynchburg city,23864,0.300906603
+23,Amherst county,10678,0.134602294
+23,Bedford County,16948,0.213639229
+23,Lynchburg city,51704,0.651758477
+24,Amherst county,21675,0.272032431
+24,Augusta county,17273,0.21678506
+24,Bath county,4731,0.05937649
+24,Buena Vista city,6650,0.08346093
+24,Lexington city,7042,0.088380732
+24,Rockbridge county,22307,0.279964357
+25,Albemarle county,21420,0.267713189
+25,Augusta county,31992,0.399845021
+25,Rockingham county,26599,0.332441789
+26,Harrisonburg city,48914,0.60621158
+26,Rockingham county,31774,0.39378842
+27,Chesterfield county,79381,1
+28,Fredericksburg city,8950,0.112856855
+28,Stafford county,70354,0.887143145
+29,Frederick county,43969,0.550638063
+29,Warren county,9679,0.12121326
+29,Winchester city,26203,0.328148677
+30,Culpeper county,33794,0.41936885
+30,Madison county,13308,0.165146495
+30,Orange county,33481,0.415484656
+31,Fauquier county,15101,0.190645121
+31,Prince William county,64109,0.809354879
+32,Loudoun county,80268,1
+33,Clarke county,9725,0.120732464
+33,Frederick county,20687,0.25682185
+33,Loudoun county,50138,0.622445686
+34,Fairfax county,53301,0.660303263
+34,Loudoun county,27421,0.339696737
+35,Fairfax county,80213,1
+36,Fairfax county,79746,1
+37,Fairfax city,22565,0.281166282
+37,Fairfax county,57690,0.718833718
+38,Fairfax county,80758,1
+39,Fairfax county,80710,1
+40,Fairfax county,66026,0.81787214
+40,Prince William county,14703,0.18212786
+41,Fairfax county,80792,1
+42,Fairfax county,79964,1
+43,Fairfax county,80750,1
+44,Fairfax county,80796,1
+45,Alexandria city,59633,0.743182951
+45,Arlington county,14388,0.179312064
+45,Fairfax county,6219,0.077504985
+46,Alexandria city,80333,1
+47,Arlington county,80757,1
+48,Arlington county,55008,0.691994163
+48,Fairfax county,24484,0.308005837
+49,Arlington county,57474,0.712997308
+49,Fairfax county,23135,0.287002692
+50,Manassas city,37821,0.46879532
+50,Prince William county,42856,0.53120468
+51,Prince William county,80372,1
+52,Prince William county,79290,1
+53,Fairfax county,67717,0.845944359
+53,Falls Church city,12332,0.154055641
+54,Caroline county,2484,0.030989957
+54,Spotsylvania county,77671,0.969010043
+55,Caroline county,19742,0.248083641
+55,Hanover county,50481,0.634358742
+55,Spotsylvania county,9355,0.117557616
+56,Goochland county,11526,0.145399957
+56,Henrico county,29812,0.376077002
+56,Louisa county,33153,0.418223562
+56,Spotsylvania county,4780,0.060299479
+57,Albemarle county,37303,0.461796529
+57,Charlottesville city,43475,0.538203471
+58,Albemarle county,30929,0.382941053
+58,Fluvanna county,18460,0.228558694
+58,Greene county,18403,0.22785296
+58,Rockingham county,12975,0.160647294
+59,Albemarle county,9318,0.117436511
+59,Appomattox county,14973,0.188707543
+59,Buckingham county,17146,0.216094272
+59,Campbell county,30664,0.386464175
+59,Nelson county,7244,0.091297498
+60,Campbell county,7024,0.088665598
+60,Charlotte county,12586,0.158876027
+60,Halifax county,36241,0.457478635
+60,Prince Edward county,23368,0.29497974
+61,Amelia county,12690,0.1590385
+61,Cumberland county,10052,0.125977542
+61,Lunenburg county,8470,0.106150993
+61,Mecklenburg county,32727,0.4101539
+61,Nottoway county,15853,0.198679066
+62,Chesterfield county,52051,0.652881781
+62,Hopewell city,22591,0.283361555
+62,Prince George county,5083,0.063756664
+63,Chesterfield county,19393,0.242977423
+63,Dinwiddie county,28001,0.350828176
+63,Petersburg city,32420,0.406194402
+64,Isle of Wight county,35270,0.440423566
+64,Prince George county,30642,0.382632801
+64,Suffolk city,7112,0.088808971
+64,Surry county,7058,0.088134662
+65,Chesterfield county,33896,0.427095408
+65,Fluvanna county,7231,0.091111839
+65,Goochland county,10191,0.128408346
+65,Powhatan county,28046,0.353384406
+66,Chesterfield county,62400,0.781847114
+66,Colonial Heights city,17411,0.218152886
+67,Fairfax county,70636,0.887019201
+67,Loudoun county,8997,0.112980799
+68,Chesterfield county,40203,0.504993029
+68,Henrico county,4472,0.056173142
+68,Richmond city,34936,0.438833829
+69,Richmond city,79318,1
+70,Charles City,7256,0.090786247
+70,Chesterfield county,28912,0.361743656
+70,Henrico county,33716,0.421850758
+70,Richmond city,10040,0.125619338
+71,Richmond city,79920,1
+72,Henrico county,79445,1
+73,Henrico county,80135,1
+74,Henrico county,79355,1
+75,Brunswick county,17434,0.219884723
+75,Emporia city,5927,0.074753743
+75,Franklin city,8582,0.108239686
+75,Greensville county,12243,0.154413712
+75,Lunenburg county,4444,0.056049542
+75,Southampton county,18570,0.234212418
+75,Sussex county,12087,0.152446177
+76,Chesapeake city,2322,0.029099568
+76,Suffolk city,77473,0.970900432
+77,Chesapeake city,79810,1
+78,Chesapeake city,80703,1
+79,Chesapeake city,19624,0.323742906
+79,Norfolk city,24797,0.40908341
+79,Portsmouth city,16195,0.267173684
+80,Portsmouth city,79340,1
+81,Chesapeake city,34720,0.43427142
+81,Virginia Beach city,45230,0.56572858
+82,Virginia Beach city,80463,1
+83,Norfolk city,4150,0.051358208
+83,Virginia Beach city,76655,0.948641792
+84,Virginia Beach city,80281,1
+85,Virginia Beach city,80787,1
+86,Fairfax county,68789,0.851907811
+86,Loudoun county,11958,0.148092189
+87,Loudoun county,70870,0.893976664
+87,Prince William county,8405,0.106023336
+88,Fauquier county,9187,0.114563979
+88,Fredericksburg city,15336,0.191243406
+88,Spotsylvania county,30591,0.381476724
+88,Stafford county,25077,0.312715891
+89,Norfolk city,99760,1
+90,Norfolk city,79612,1
+91,Hampton city,57957,0.72859729
+91,Poquoson city,12150,0.15274181
+91,York county,9439,0.118660901
+92,Hampton city,79479,1
+93,James City,20694,0.259424087
+93,Newport News city,21884,0.274342163
+93,Williamsburg city,14068,0.176359237
+93,York county,23123,0.289874513
+94,Newport News city,79461,1
+95,Newport News city,79374,1
+96,James City,46315,0.584659858
+96,York county,32902,0.415340142
+97,Hanover county,49382,0.622049228
+97,King William county,11575,0.145806565
+97,New Kent county,18429,0.232144207
+98,Essex county,11151,0.140704849
+98,Gloucester county,36858,0.465079305
+98,King and Queen county,6945,0.087632964
+98,King William county,4360,0.055015079
+98,Mathews county,8978,0.113285637
+98,Middlesex county,10959,0.138282167
+99,Caroline county,6319,0.078661057
+99,King George county,23584,0.293581636
+99,Lancaster county,11391,0.141799034
+99,Northumberland county,12330,0.153488025
+99,Richmond county,9254,0.115196933
+99,Westmoreland county,17454,0.217273316
+100,Accomack county,33164,0.414358359
+100,Norfolk city,34484,0.430850732
+100,Northampton county,12389,0.154790909
