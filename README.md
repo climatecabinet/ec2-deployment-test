@@ -14,11 +14,31 @@ pip install -r requirements
 ```
 
 ## Usage
-To make a new database from scratch, use the command
+To extract a dataset from the internet, run the `fetch` command on the dataset:
+```sh
+python run.py fetch <insert-name-of-dataset>
+```
+
+To transform data from raw to clean (and thus, stage it for loading into a database), run the `clean` command on the dataset:
+```sh
+python run.py clean <insert-name-of-dataset>
+```
+
+To load all cleaned data into a new database, use the `new-db` command:
 ```sh
 python run.py new-db -l
 ```
-to specify a name for this new database, add the `-db` flag
+By default, a random database name is generated. To specify a name, use `-db`:
 ```sh
 python run.py new-db -l -db my-new-database
+```
+
+To unload and load a specific dataset in a pre-built database, use `refresh`:
+```sh
+python run.py refresh <insert-name-of-dataset> -l -db <insert-name-of-database>
+```
+
+To run a helper/utility script in the `app/helpers` directory, use the `helper` command:
+```sh
+python run.py helper <insert-name-of-helper-script>
 ```

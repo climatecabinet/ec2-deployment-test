@@ -18,10 +18,16 @@ DATA_RAW_PATH = os.path.join(DATA_DIR, '%s', 'raw-data')
 
 # the names of data-libary entries that can be specifically refreshed
 # during a database build/ refresh process
-CLI_BUILD_ENTRY_NAMES = {'jobs'}
+CLI_BUILD_ENTRY_NAMES = {'environmental_orgs', 'daily_kos', 'asthma', 'jobs'}
 
 # the names of data-libary entries that have functional fetch.py and clean.py scripts
-CLI_FETCH_CLEAN_ENTRY_NAMES = {'jobs', 'tiger'}
+CLI_FETCH_CLEAN_ENTRY_NAMES = {
+    'tiger',
+    'environmental_orgs',
+    'daily_kos',
+    'asthma',
+    'jobs',
+}
 
 ALL_STATES = {
     ('AL', '01', 'Alabama'),

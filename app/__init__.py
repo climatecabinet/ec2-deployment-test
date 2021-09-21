@@ -16,7 +16,13 @@ from app.config import (
     GEN_PWD,
     ALL_STATES,
 )
-from app.build import refresh_tiger, refresh_asthma, refresh_daily_kos, refresh_jobs
+from app.build import (
+    refresh_tiger,
+    refresh_asthma,
+    refresh_daily_kos,
+    refresh_jobs,
+    refresh_environmental_orgs,
+)
 
 
 class ClimateCabinetDBManager:
@@ -150,7 +156,7 @@ class ClimateCabinetDBManager:
         print(f"\nDatabase build beginning at {(start := datetime.now())}")
 
         refresh_tiger(states_to_skip)
-        refresh_environmental_orgs(states_to_skip)
+        refresh_environmental_orgs(states_to_skip, False)
         refresh_daily_kos(states_to_skip)
         refresh_asthma(states_to_skip)
         refresh_jobs(states_to_skip)
@@ -166,7 +172,7 @@ class ClimateCabinetDBManager:
         print(f"\nDatabase build beginning at {(start := datetime.now())}")
 
         if 'environmental_orgs' in datasets:
-            refresh_environmental_orgs(states_to_skip)
+            refresh_environmental_orgs(states_to_skip, True)
         if 'daily_kos' in datasets:
             refresh_daily_kos(states_to_skip)
         if 'asthma' in datasets:

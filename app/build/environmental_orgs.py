@@ -11,11 +11,15 @@ KEYS = EOD.Keys
 spinner = Halo()
 
 
-def refresh_environmental_orgs(states_to_skip):
-    """ Refreshes the asthma counts """
+def refresh_environmental_orgs(states_to_skip, unload):
+    """Refreshes the asthma counts"""
     print("\n~~ Refreshing Environmental Orgs Data ~~")
     switch_halo_icon(spinner)
     spinner.start()
+
+    # if we're reloading, unload the data firt
+    if unload:
+        State.objects.update(unset__environmental_organizations=True)
 
     update_halo_base(spinner, "Opening dataset")
     df = pd.read_csv(EOD.DATASET)
@@ -27,11 +31,11 @@ def refresh_environmental_orgs(states_to_skip):
         state = State.objects.get(state_abbr=row[KEYS.STATE_ABBR])
         state.update(
             push__environmental_organizations=EnvironmentalOrg(
-                name=row[KEYS.NAME],
-                website=row[KEYS.SITE]
+                name=row[KEYS.NAME], website=row[KEYS.SITE]
             )
         )
         update_halo_scroll(spinner, f"Organizations loaded: {row.name}/{num_states}")
+
     df.apply(handle_row, args=[len(df)], axis=1)
 
     spinner.succeed("Done!")

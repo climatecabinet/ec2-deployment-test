@@ -1,3 +1,4 @@
+import shutil
 from pathlib import Path
 from app.config import DATA_DIR
 
@@ -50,8 +51,10 @@ from .clean import clean
 def init_new_dataset(name):
     # make sure name doesn't already exist
     if Path(DATA_DIR, name).exists():
-        raise ValueError(f"The data-library folder '{name}' already exists, "
-                         f"please choose a different name.")
+        raise ValueError(
+            f"The data-library folder '{name}' already exists, "
+            "please choose a different name."
+        )
 
     # make the dirs
     Path(DATA_DIR, name, 'data').mkdir(parents=True)
@@ -59,7 +62,9 @@ def init_new_dataset(name):
     Path(DATA_DIR, name, 'scripts').mkdir(parents=True)
 
     with open(Path(DATA_DIR, name, 'README.md'), 'x') as f:
-        f.write(README_STUB.format(name_title=name.title().replace('_', ' '), name=name))
+        f.write(
+            README_STUB.format(name_title=name.title().replace('_', ' '), name=name)
+        )
 
     with open(Path(DATA_DIR, name, 'scripts', 'clean.py'), 'x') as f:
         f.write(CLEAN_STUB.format(name=name))
@@ -72,3 +77,10 @@ def init_new_dataset(name):
 
     print("Done! An empty dataset directory has been initialized at:")
     print(f"\t{Path(DATA_DIR, name)}")
+
+    print(
+        "\n### DRY RUN ###\nOnly dry runs of this helper function are allowed in the"
+        f" reduced verion of this application, {Path('data-library', name)} was"
+        " immediately unlinked."
+    )
+    shutil.rmtree(Path(DATA_DIR, name))

@@ -18,9 +18,13 @@ def download_ala_data():
     with open(ASTHMA_YAML_PATH, 'r') as in_file:
         all_states = yaml.safe_load(in_file)
         for idx, state_info in enumerate(all_states):
-            state_abbr = STATE_FIPS_TO_ABBR[assemble_ccid(RegionType.STATE, state_info['state'])]
+            state_abbr = STATE_FIPS_TO_ABBR[
+                assemble_ccid(RegionType.STATE, state_info['state'])
+            ]
             resp = requests.get(state_info['jsonUrl'])
-            print("Reading %s (%d/%d)" % (state_abbr, idx+1, len(all_states)), end='\r')
+            print(
+                "Reading %s (%d/%d)" % (state_abbr, idx + 1, len(all_states)), end='\r'
+            )
 
             if not resp.ok:
                 print("Bad resp: ", resp.error)
@@ -29,15 +33,18 @@ def download_ala_data():
 
             if df is None:
                 # First time, initialize with columns
-                keys = [pop['name']
-                        for pop in asthma_json[0]['FormattedPopulations']]
+                keys = [pop['name'] for pop in asthma_json[0]['FormattedPopulations']]
                 columns = ['State', 'County']
                 columns.extend(keys)
                 df = pd.DataFrame(columns=columns)
 
             for county in asthma_json:
-                row = dict([(pop['name'], pop['val'])
-                           for pop in county['FormattedPopulations']])
+                row = dict(
+                    [
+                        (pop['name'], pop['val'])
+                        for pop in county['FormattedPopulations']
+                    ]
+                )
                 row['State'] = state_abbr
                 row['County'] = county['properCountyName']
                 df = df.append(row, ignore_index=True)
