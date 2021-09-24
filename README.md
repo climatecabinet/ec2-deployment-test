@@ -13,6 +13,11 @@ Then, install dependencies
 pip install -r requirements.txt
 ```
 
+Finally, we need to make sure GDAL is installed on our machine. Follow these instructions, depending on your operating system:
+* [MacOS](https://trac.osgeo.org/gdal/wiki/BuildingOnMac)
+* [Windows](https://sandbox.idre.ucla.edu/sandbox/tutorials/installing-gdal-for-windows)
+* [Linux/Ubuntu](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html#install-gdal-ogr)
+
 ## Usage
 To extract a dataset from the internet, run the `fetch` command on the dataset:
 ```sh
