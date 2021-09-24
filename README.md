@@ -10,7 +10,7 @@ source .env/bin/activate
 
 Then, install dependencies
 ```sh
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ## Usage
