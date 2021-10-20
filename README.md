@@ -2,7 +2,14 @@
 A copy of our main ETL pipeline and database building repository, but reduced in scope to only a handful of pipelines.
 
 ## Setup
-Start by making a new virtual environment and activating it
+To begin you'll need an environment with python3 virtualenv and mongodb. On an Ubuntu instance you can install the former with:
+```sh
+sudo apt install python3-virtualenv
+```
+
+Which should also pull in python3. To set up mongodb on Ubuntu follow instructions [here](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
+
+Once you have the base environment set up, start by making a new virtual environment and activating it
 ```sh
 virtualenv .env
 source .env/bin/activate
