@@ -2,9 +2,8 @@
 #
 # This needs valid creds so it can pull from git
 # prob should be a dedicated user that only has access to what it needs
-uname=<username>
-utoken=<token>
-targetfolder=~/ec2-deployment-test
+# pull in the creds from config.sh
+source config.sh
 
 cd $targetfolder
 git pull https://$uname:$utoken@github.com/climatecabinet/ec2-deployment-test.git
