@@ -66,3 +66,55 @@ To run a helper/utility script in the `app/helpers` directory, use the `helper` 
 ```sh
 python run.py helper <insert-name-of-helper-script>
 ```
+### Cron-based data maintenance
+
+Periodic fetches and cleans can be run automatically using a scheduler like cron, with preconfigured intervals.
+
+#### Setup
+
+Before running anything, each dataset pipeline needs to be configured by adding a maintenance.cfg file to the root folder of the dataset in question. See `data-library/asthma/maintenance.cfg` for an example config file. Datasets that can be fetched programmatically can be configured with an interval for "fetch" ("clean" is automatically run after "fetch"), and datasets that need to be manually fetched can still be tracked by configuring an interval for "manual_fetch" - which would generate warnings when due.
+
+#### The Cron command
+
+After configuring the datasets as above, run the following command on a daily cron:
+```sh
+python run.py helper maintain
+```
+This command will check for any run history data and will execute any scheduled "fetch" and "manual_fetch" that are due, as well as update the run history accordingly. If an interval is configured in a maintenance.cfg but no history data is found, the operation will be assumed due and run immediately.
+
+Run history data for each dataset is stored in a config file in the data/ folder of the dataset in question.
+
+With this command on daily cron, barring any exceptions, all datasets that can be programmatically fetched should self-maintain without any human intervention.
+
+#### Manual datasets
+
+Datasets that cannot be programmatically fetched can be configured with an interval for "manual_fetch". This will generate warnings when the dataset is due for fetching, so that a human maintainer can be alerted to the need to perform a manual fetch and clean.
+
+Upon manually fetching and cleaning, the maintainer should mark the dataset as fetched using the mark_fetched command:
+```sh
+python run.py mark_fetched <insert-name-of-dataset>
+```
+This alerts the maintenance mechanism that the data has been updated and will silence the warnings until the dataset is next due.
+
+**Note: "fetch", "clean" and "flean" commands update the run history by default. To run these commands without affecting the run history data, use the "--nomark" flag. eg.**
+```sh
+python run.py fetch --nomark <insert-name-of-dataset>
+```
+
+#### Automatically keeping the code updated
+
+**pullandrun.sh** can be run on the daily cron instead of the maintain command directly to ensure that a git pull is always executed before the maintain command itself. For this to work, make sure a **config.sh** file is available at the root folder that contains github credentials with access to the repository. A sample config file is available for reference.
+
+#### Viewing data maintenance status
+
+Running the following:
+```sh
+python run.py helper print_maintain_status text
+```
+Outputs a simple text report of the current state of each dataset, including the following info:
+ * last successful fetch
+ * next scheduled fetch
+ * if the current dataset is due for fetch/manual fetch
+ * last exception info, if last attempted run resulted in an exception
+
+This can be used as a basis for a simple status dashboard that can be served on a web page.

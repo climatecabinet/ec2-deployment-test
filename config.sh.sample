@@ -1,0 +1,3 @@
+uname=<username>
+utoken=<token>
+targetfolder=/home/ubuntu/ec2-deployment-test

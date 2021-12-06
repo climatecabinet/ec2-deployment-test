@@ -2,6 +2,7 @@ import us
 import argparse
 from haikunator import Haikunator
 from importlib import import_module
+from app.helpers.maintain import mark_op
 from app.config import (
     BUILD_USER,
     GEN_USER,
@@ -113,6 +114,12 @@ def get_parsed_args():
         'fetch', help='Runs a data-library\'s fetching script.'
     )
     fetch_parser.add_argument("dataset", choices=CLI_FETCH_CLEAN_ENTRY_NAMES)
+    fetch_parser.add_argument(
+        "--nomark",
+        "-n",
+        action="store_true",
+        help="run fetch without recording it in the maintenance logs",
+    )
 
     # setup parser for running data cleaning scripts (raw-data --> data ready for db consumption)
     clean_parser = subparsers.add_parser(
@@ -126,6 +133,12 @@ def get_parsed_args():
         choices=STATE_ABBR_TO_FIPS.keys(),
         default=[],
         help="the state(s) to clean data for",
+    )
+    clean_parser.add_argument(
+        "--nomark",
+        "-n",
+        action="store_true",
+        help="run clean without recording it in the maintenance logs",
     )
 
     flean_parser = subparsers.add_parser(
@@ -141,6 +154,19 @@ def get_parsed_args():
         default=[],
         help="the state(s) to fetch and clean data for",
     )
+    flean_parser.add_argument(
+        "--nomark",
+        "-n",
+        action="store_true",
+        help="run flean without recording it in the maintenance logs",
+    )
+
+
+    markfetch_parser = subparsers.add_parser(
+      'mark_fetched',
+      help="Marks a manually-fetched data library as 'fetched' for maintenance tracking",
+    )
+    markfetch_parser.add_argument("dataset", choices=CLI_FETCH_CLEAN_ENTRY_NAMES)
 
     # setup parser for running helper functions
     util_parser = subparsers.add_parser(
@@ -194,6 +220,10 @@ if __name__ == '__main__':
 
         if args.operation in ('fetch', 'flean'):
             data_scripts.fetch()
+            # we now update maintenance history records by default for manual runs as well
+            # but user can opt out by supplying the nomark flag
+            if not args.nomark:
+              mark_op("fetch", args.dataset)
 
         if args.operation in ('clean', 'flean'):
             targets_raw = [
@@ -202,6 +232,11 @@ if __name__ == '__main__':
             target_states = [s for state in targets_raw for s in state]
 
             data_scripts.clean(target_states)
+            if not args.nomark:
+              mark_op("clean", args.dataset)
+
+    elif args.operation == 'mark_fetched':
+        mark_op("manual_fetch", args.dataset)
 
     elif args.operation == 'helper':
         helper_args, kwds = parse_unknown_args(unknown)
